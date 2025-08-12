@@ -2,6 +2,8 @@
 
 This is a Python REPL (Read-Eval-Print Loop) web application that allows users to execute Python code in an interactive environment. The application features a modern web interface built with React and TypeScript, with a Node.js/Express backend that handles Python code execution. Users can write Python code in a built-in editor, execute it, and view the output in real-time. The application supports session management to maintain execution history and provides both desktop and mobile-responsive interfaces.
 
+Additionally, the project now includes a complete Kivy + Excel desktop application with sample project files for Python development, demonstrating how to build GUI applications that work with Excel data.
+
 # User Preferences
 
 Preferred communication style: Simple, everyday language.
@@ -85,3 +87,21 @@ Preferred communication style: Simple, everyday language.
 ## Database and Storage
 - **connect-pg-simple**: PostgreSQL session store for Express (configured but not actively used)
 - **drizzle-kit**: CLI tools for database migrations and schema management
+
+# Python Desktop Application Files
+
+The project includes a complete Kivy-based desktop application for Excel data viewing:
+
+## Application Files
+- **`main.py`** - Complete Kivy GUI application for viewing Excel data with file chooser, data display, and error handling
+- **`python_requirements.txt`** - Python dependencies list (kivy, pandas, openpyxl, xlsxwriter)
+- **`data.xlsx`** - Sample Excel file with employee data (10 rows, 7 columns)
+- **`create_excel_data.py`** - Utility script to generate properly formatted Excel sample data
+- **`run_python_app.py`** - Application launcher with dependency checking and setup
+- **`README_Python_App.md`** - Complete documentation for the Python desktop application
+
+## Python Dependencies Installed
+- **Kivy 2.3.1** - Cross-platform GUI framework for desktop applications
+- **Pandas 2.3.1** - Data manipulation and Excel file processing
+- **OpenPyXL 3.1.5** - Excel file reading/writing support
+- **NumPy 2.3.2** - Numerical computing support for pandas
